@@ -7,3 +7,7 @@ An ImageJ plugin that echoes the executing command in a dedicated text window fo
 Download the *.jar file to your plugins folder and launch "IJ RemoteTeachingAssistant"
 
 ![image](https://user-images.githubusercontent.com/711344/112014611-5a505200-8b2b-11eb-9b07-06527f3aa758.png)
+
+# History
+
+ * v1.01 uses an image with text overlays instead of a text window; Thanks to @StillSciencing, adds a second line with command history. 
