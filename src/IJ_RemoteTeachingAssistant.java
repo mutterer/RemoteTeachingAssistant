@@ -5,6 +5,7 @@ import ij.CommandListener;
 import ij.Executer;
 import ij.IJ;
 import ij.ImagePlus;
+import ij.WindowManager;
 import ij.gui.GenericDialog;
 import ij.gui.ImageWindow;
 import ij.gui.Overlay;
@@ -54,6 +55,8 @@ public class IJ_RemoteTeachingAssistant implements PlugIn, CommandListener {
     cmds="";
     imp.getWindow().setLocation((int)(screenSize.getWidth() - imp.getWindow().getWidth()),0);
     imp.getWindow().setBackground(Colors.decode(colors[0]));
+    imp.getCanvas().hideZoomIndicator(true);
+    WindowManager.removeWindow(imp.getWindow());
     Executer.addCommandListener(this);
   }
   public String commandExecuting(String command) {
