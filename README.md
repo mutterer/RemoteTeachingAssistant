@@ -11,3 +11,4 @@ Download the *.jar file to your plugins folder and launch "IJ RemoteTeachingAssi
 # History
 
  * v1.01 uses an image with text overlays instead of a text window; Thanks to @StillSciencing, adds a second line with command history. 
+ * v1.02 Thanks to @psobolewskiPhD the Assistant window is removed from the the WindowManager and now reports tool and color changes by implementing IJEventlistener 
